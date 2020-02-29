@@ -1,0 +1,63 @@
+div {
+    float: left;
+    box-sizing: border-box;
+    border: 5px solid white;
+  }
+  
+  .red {
+    background-color: #893F3E;
+  }
+  
+  .green {
+    background-color: #568D4A;
+  }
+  
+  .blue {
+    background-color: #274DB0;
+  }
+  
+  h1,
+  h2 {
+    text-align: center;
+  }
+  
+  p {
+    padding: 10px;
+    color: white;
+  }
+  
+  .container {
+    border: 2px solid black;
+    font-size: ;
+  }
+  
+  @media(max-width: 767px) {
+    div {
+      width: 100%;
+      color: red;
+    }
+  }
+  
+  @media(min-width: 768px) and (max-width: 1023px) {
+    .red {
+      width: 100%;
+      color: green;
+    }
+    .green, 
+    .blue {
+      width: 50%;
+      color: green;
+    }
+  }
+  
+  @media(min-width: 1024px) {
+    .red {
+      color: blue;
+      width: 100%;
+    }
+    .green,
+    .blue {
+        color: blue;
+        width: 50%;
+    }
+  }
